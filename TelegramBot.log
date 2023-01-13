@@ -1,0 +1,48 @@
+[12/26/2022 01:35:22 AM:pyrogram.dispatcher:253:ERROR] 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\GILL\Downloads\V3-master\plugins\pm_filter.py", line 130, in advantage_spoll_choker
+    movies = SPELL_CHECK.get(query.message.reply_to_message.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+[12/26/2022 01:35:48 AM:pyrogram.dispatcher:253:ERROR] 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\GILL\Downloads\V3-master\plugins\pm_filter.py", line 130, in advantage_spoll_choker
+    movies = SPELL_CHECK.get(query.message.reply_to_message.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+[12/26/2022 02:02:58 AM:pyrogram.dispatcher:253:ERROR] Telegram says: [400 MEDIA_EMPTY] - The media you tried to send is invalid (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\GILL\Downloads\V3-master\plugins\pm_filter.py", line 401, in cb_handler
+    await client.send_cached_media(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\methods\messages\send_cached_media.py", line 101, in send_cached_media
+    r = await self.invoke(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\session\session.py", line 360, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\session\session.py", line 330, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] - The media you tried to send is invalid (caused by "messages.SendMedia")
+[12/26/2022 02:03:03 AM:pyrogram.dispatcher:253:ERROR] Telegram says: [400 MEDIA_EMPTY] - The media you tried to send is invalid (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\GILL\Downloads\V3-master\plugins\pm_filter.py", line 401, in cb_handler
+    await client.send_cached_media(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\methods\messages\send_cached_media.py", line 101, in send_cached_media
+    r = await self.invoke(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\session\session.py", line 360, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\session\session.py", line 330, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\GILL\AppData\Roaming\Python\Python39\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] - The media you tried to send is invalid (caused by "messages.SendMedia")
